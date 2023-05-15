@@ -1,0 +1,61 @@
+.overlay {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-modal {
+    background-color: var(--black);
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-modal img {
+    width: 200px;
+    height: 200px;
+}
+
+.login-modal .input-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.login-modal .input-group .field {
+    width: 80%;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.login-modal .input-group button {
+    margin: 5px 0;
+    border-radius: 5px;
+    width: 80%;
+    padding: 10px 5px;
+}
+
+.error-container {
+    display: flex;
+    gap: 10px;
+    color: rgb(255, 55, 55);
+    font-size: 14px;
+    padding: 20px;
+}
+
+.error-container i {
+    display: inline-block;
+    transform: translateY(4px);
+
+}

@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+.App .app-main {
+  width: 100%;
+  position: relative;
+  padding: 20px;
+  padding-top: 100px;
+}
+
+.App .app-main .user-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  width: 400px;
+  gap: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  padding-right: 50px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.App .app-main .user-panel button:first-child {
+  transform: translateY(-5px);
+}
+
+.App .app-main .user-panel button {
+  padding: 5px;
+  opacity: 0.6;
+  transition: all 0.2s ease-in;
+}
+
+.App .app-main .user-panel button:hover {
+  opacity: 1;
+}
+
+.App .app-main .user-panel button:active {
+  opacity: 0.3;
+}
+
+.App .app-main .user-panel button span {
+  margin-right: 10px;
+  display: inline-block;
+  transform: translateY(7px);
+}
+
+.App .app-main .user-panel button i {
+  margin-right: 10px;
+}
+
+/* Inventory Header */
+.inventory-header,
+.shop-header {
+  display: flex;
+  gap: 25px;
+}
